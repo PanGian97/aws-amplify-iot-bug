@@ -14,8 +14,8 @@ function App() {
   
 useEffect(()=>{
   PubSub.addPluggable(new AWSIoTProvider({
-    aws_pubsub_region: 'us-east-2',
-    aws_pubsub_endpoint: 'wss://al3qi2b1mxp67-ats.iot.us-east-2.amazonaws.com/mqtt',
+    aws_pubsub_region: '<REGION>',
+    aws_pubsub_endpoint: 'wss://<YOUR_ENDPOINT>.amazonaws.com/mqtt',
 }));
     console.log('called')
     let subscription  =PubSub.subscribe('bug').subscribe({
