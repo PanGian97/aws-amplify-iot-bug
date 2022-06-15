@@ -15,4 +15,4 @@ Feel free to notice that if you connect with User1 and then sign-out and switch 
 
 The only way i found to fix this is by removing manually the connection "PubSub.removePluggable()" on user sign-out after unsubscribing from the topic (far from a best prectice though).
 
-Feel free to inform me for further info or any better solution :)
+Feel free to inform me for further info or any better solution :))
